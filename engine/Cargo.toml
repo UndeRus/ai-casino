@@ -1,0 +1,9 @@
+[package]
+name = "engine"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+casino-core = { path = "../casino-core" }
+robot-sdk = { path = "../robot-sdk" }
+game-roulette = { path = "../game-roulette" }

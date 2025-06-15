@@ -1,0 +1,1 @@
+pub mod black_always_wasm;

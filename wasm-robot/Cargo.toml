@@ -1,0 +1,17 @@
+[package]
+name = "wasm-robot"
+version = "0.1.0"
+edition = "2024"
+
+
+[lib]
+name = "redalways"
+crate-type = ["cdylib"]
+
+[dependencies]
+casino-core = { path = "../casino-core" }
+robot-sdk = { path = "../robot-sdk" }
+extism-pdk = "1.4.1"
+#rand = { version = "0.9.1" }
+#getrandom = { version = "0.3.3", features = ["wasm_js"] }
+serde = { version = "1.0.219" }

@@ -26,7 +26,6 @@ pub mod types {
     pub struct Bet {
         pub bet_type: BetType,
         pub amount: f64,
-        // pub player_id: usize,
     }
 }
 

@@ -19,7 +19,6 @@ pub fn simulate_game_table(robots: &mut [Box<dyn Robot>], spins: usize) -> Simul
     let mut history = vec![];
 
     let mut spin_number = 0;
-    // while balance > 0.0 {
 
     let mut final_balances = vec![balance; robots.len()];
 
@@ -55,7 +54,6 @@ pub fn simulate_game(robot: &mut Box<dyn Robot>, spins: usize) -> SingleSimulati
     let mut history = vec![];
 
     let mut spin_number = 0;
-    // while balance > 0.0 {
 
     for _ in 0..spins {
         let bets = robot.place_bets(&history, balance).unwrap();

@@ -1,9 +1,6 @@
-mod wasm_loader;
-
 use engine::{simulate_game, simulate_game_table};
 use robot_sdk::Robot;
-
-use crate::wasm_loader::WasmLoader;
+use robot_wasm_loader::WasmLoader;
 
 fn main() {
     println!("Start balance 1000");

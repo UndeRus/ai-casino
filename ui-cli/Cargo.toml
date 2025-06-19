@@ -6,7 +6,5 @@ edition = "2024"
 [dependencies]
 casino-core = {path = "../casino-core"}
 robot-sdk = { path = "../robot-sdk" }
+robot-wasm-loader = { path = "../robot-wasm-loader"}
 engine = {path = "../engine"}
-extism = "1.11.1"
-serde_json = "1.0.140"
-serde = { version = "1.0.219", features = ["derive"] }

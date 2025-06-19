@@ -7,6 +7,7 @@ members = [
     "wasm-robot",
     "engine",
     "ui-cli",
+    "robot-wasm-loader",
     "wasm-robot",
     "wasm-robot-blackonly",
 ]

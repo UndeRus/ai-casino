@@ -1,10 +1,6 @@
 use casino_core::types::*;
 use serde::{Deserialize, Serialize};
 
-
-mod wasm_bot;
-mod wasm_extism;
-
 pub trait Robot {
     fn name(&self) -> &str;
     fn place_bets(&mut self, history: &[RouletteSpin], balance: f64) -> Result<Vec<Bet>, &'static str>;
